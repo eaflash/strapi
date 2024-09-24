@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_seo_seo_information_s",
+  "info": {
+    "displayName": "seoInformation ",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    }
+  }
+}

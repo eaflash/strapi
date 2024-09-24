@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "callToAction": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttons": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.link"
+    }
+  }
+}

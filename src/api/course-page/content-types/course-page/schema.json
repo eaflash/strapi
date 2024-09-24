@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "course_pages",
+  "info": {
+    "singularName": "course-page",
+    "pluralName": "course-pages",
+    "displayName": "CoursePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Our courses"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "Info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.page-info"
+    }
+  }
+}
